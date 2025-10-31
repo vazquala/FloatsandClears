@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Floats and Clears - Code Along 2</title>
+        <link rel="stylesheet" href="codealong2_style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Floats and Clears</h1>
+        </header>
+
+        <section class="container">
+            <div class="box left">
+                <h2>Left Float</h2>
+                <p>This box is floated left. Notice how it moves to the left side of its container and allows other
+                    elements to wrap around it.</p>
+            </div>
+
+            <div class="box right">
+                <h2>Right Float</h2>
+                <p>This box is floated right. It sits on the right edge of its container, allowing text or other boxes
+                    to flow beside it.</p>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <p class="content">
+                This paragraph sits below both floated boxes because we used the clearfix. Without clearing the floats,
+                this text would wrap around the floated boxes, breaking the layout.
+            </p>
+        </section>
+
+        <footer>
+            <p>Floats and Clears Example © 2025</p>
+        </footer>
+    </body>
+</html>

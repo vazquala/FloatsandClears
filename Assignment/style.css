@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #e1e1e1;
+}
+
+header, footer {
+    text-align: center;
+    background-color: #364755;
+    padding: 16px;
+    color: #ffffff;
+}
+
+.col {
+    width: 30%;
+    margin: 8px;
+    padding: 16px;
+    background-color: #f8f8f8;
+    border-radius: 16px;
+}
+
+.left {
+    float: left;
+}
+
+.middle {
+    margin-inline: auto;
+    width: 30%;
+}
+
+.right {
+    float: right;
+}
+
+.clearfix {
+    content: "";
+    display: block;
+    clear: both;
+}
